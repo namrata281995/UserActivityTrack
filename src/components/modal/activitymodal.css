@@ -1,0 +1,48 @@
+.activityinfo{
+    display: flex; 
+    margin-top : 1rem;
+}
+
+.activitydetails{
+    margin-top: 1rem;
+    margin-right: 4rem;
+    margin-left: 1.5rem;
+} 
+
+.date_input{
+    margin-left: 3rem;
+    font-weight: bold;
+}
+
+.modal {
+    margin-top: 1rem;
+}
+  
+.activitycard{
+    margin : 1.5rem;
+}
+
+.nodata{
+    display: flex;
+    justify-content: center;
+}
+
+.nodataspan {
+    padding : 1rem;
+}
+
+.activitychart{
+    margin-top: 1.5rem;
+}
+
+.modal_title{
+    margin-left : 20rem;
+}
+
+.date_input_activity{
+    width: 15rem;
+}
+
+.modal_dialog{
+    background-color: antiquewhite;
+}

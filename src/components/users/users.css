@@ -1,0 +1,38 @@
+.users { 
+    cursor: pointer;
+}
+
+.usercard {
+    width : 20rem;
+    margin : 1.5rem; 
+    opacity: 0.9;
+}
+
+.usercard:hover {
+    transform: scale(1.2);
+}
+
+.userlist{
+    display: flex;
+    flex-direction: column;
+}
+
+.usercards{
+    display: flex;
+    flex-direction: row;
+}
+
+.availableuser{
+    margin : 1rem;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+
+.availableusersspan{
+    margin-left: 1rem;
+    font-size: xx-large;
+}
+hr{
+    background-color: rgb(35 27 27 / 27%);
+}
