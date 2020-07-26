@@ -17,7 +17,7 @@ The landing page shows the list of available users that come from a JSON file (s
 Click on any user, you will see a modal that shows period of activity for that user for the current date.  
 You can select a different date from the datepicker and the corresponding activity data (if available) will be show into the modal.
 
-# Sample Data :
+## Sample Data :
 User : Monica Gellar  
 Date : 25 July 2020  
 
