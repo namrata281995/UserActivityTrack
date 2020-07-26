@@ -39,7 +39,11 @@ class Users extends Component {
   render() {
     return (
       <div className='userlist'>
-              
+        {         
+        this.state.users.length === 0 ? 
+        <div className='nodatacard'><Card> <div className='nouserdata'>No Users Available </div></Card></div>
+        :       
+        <div>   
         {/* Users List */}
         <div className='usercards'>
         {this.state.users.map((user) => 
@@ -58,6 +62,8 @@ class Users extends Component {
           handleClose={ this.handleModalClose }
           id= {this.state.selecteduserid}
         />
+      }
+      </div> 
       }
       </div>
     );
