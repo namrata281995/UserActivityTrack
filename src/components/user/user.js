@@ -3,6 +3,7 @@ import './user.css'
 
 const User = (props) => {
     return (
+    // return the username and location
     <div className='userinfo'>
         <div className='namediv'>
               {props.user.real_name}

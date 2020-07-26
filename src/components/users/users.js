@@ -15,6 +15,7 @@ class Users extends Component {
     }
   }
 
+  //open modal that shows the activity details for the selected user
   showactivitydetails = (id) => { 
     this.setState({
       showModal: true,
@@ -22,6 +23,7 @@ class Users extends Component {
     });
   };
 
+  //get the users list after component has mounted
   componentDidMount = async () =>{
     const users = await getuserlist()
     this.setState({
@@ -29,6 +31,7 @@ class Users extends Component {
     })
   }
 
+  //close the modal
   handleModalClose = () => {
     this.setState({ showModal: false });
   }

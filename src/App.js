@@ -9,6 +9,8 @@ function App() {
       <div className='availableuser'>
           <span className='availableusersspan'>Available Users<hr></hr></span>
       </div>
+
+      {/* Component that renders List of available Users */}
        <Users/> 
     </div>
   );
